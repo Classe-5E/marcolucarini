@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="LoginGra.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required><br>
+    </form> 
+      <form>
+      <label for="fname">Nome:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Cognome:</label>
+        <input type="text" id="lname" name="lname">
+    </form>
+        <p>Sesso:</p>
+        <form>
+          <input type="radio" id="male" name="sesso_choose">
+          <label for="male">Maschio</label><br>
+          <input type="radio" id="female" name="sesso_choose">
+          <label for="female">Femmina</label><br>
+        </form>
+        <form>
+          <label for="date">Data:</label>
+          <input type="date" id="date">
+        </form>
+  
+        <form action="#">
+          <label for="Com">Comune</label>
+          <select name="Comune" id="Com">
+            <option value="Pescosolido">Pescosolido</option>
+            <option value="Balsorano">Balsorano</option>
+            <option value="Frosinone">Frosinone</option>
+            <option value="Arce">Arce</option>
+            <option value="Arpino">Arpino</option>
+            <option value="Fontana liri">Fontana liri</option>
+            <option value="Isola del liri">Isola del liri</option>
+            <option value="Sora">Sora</option>
+          </select>
+          
+         </form>
+         <form action="#">
+          <label for="Com">Provincia</label>
+          <select name="Comune" id="Com">
+            <option value="FR">Frosinone</option>
+            <option value="LT">Latina</option>
+            <option value="RM">Roma</option>
+            <option value="RI">Rieti</option>
+          </select>
+          
+    </form>
+    <form>
+      <input type="checkbox" id="privacy" name="Privacy">
+      <label for="CheckPry"> Accetto le condizioi di Privacy</label><br>
+      
+    </form>
+    <form>
+    <button type="submit">Login</button>
+    </form>
+    <a href="Home.html">Home</a>
+    
+  </div>
+</body>
+</html>
